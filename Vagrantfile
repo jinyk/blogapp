@@ -67,7 +67,8 @@ Vagrant::Config.run do |config|
   # some recipes and/or roles.
   #
   config.vm.provision :chef_solo do |chef|
-     chef.cookbooks_path = "chef-repo/cookbooks"
+     # All provisioning cookbooks can be found at https://github.com/nywilken/chef-repo.git
+     chef.cookbooks_path = "../chef-repo/cookbooks"
      chef.add_recipe "apt"
      chef.add_recipe "torquebox"
      chef.add_recipe "torquebox-app-deploy"
