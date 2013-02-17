@@ -12,6 +12,7 @@ end
 
 platform :ruby do
   gem 'sqlite3'
+  gem 'rdoc-data'
 end 
 
 gem 'json'
