@@ -1,6 +1,7 @@
 Overview
 ========
 This repo is home to a demo ruby on rails blog application, which was created using the Ruby on Rails Getting Started Guide. This project also contains a vagrant file, which can be used in conjunction with the cookbooks in nywilken/chef-repo to developing this application on a local vagrant vm running jruby 1.7 and torquebox 2.3.0. 
+=======
 
 Usage
 ==========
